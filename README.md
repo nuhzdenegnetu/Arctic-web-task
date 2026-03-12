@@ -30,7 +30,7 @@
 ### 1. Клонировать репозиторий
 
 ```bash
-git clone <repository-url>
+git clone <https://github.com/nuhzdenegnetu/Arctic-web-task.git>
 cd Arctic-web
 ```
 
@@ -288,21 +288,10 @@ NEXT_PUBLIC_API_URL=http://localhost:3001
 6. **Откройте детали** кликнув на карточку
 7. **Редактируйте и удаляйте** сниппеты
 
-## 🚀 Деплой
+## 🌐 Live Demo
 
-Приложение можно развернуть на:
-- **Frontend**: Vercel (рекомендуется для Next.js)
-- **Backend**: Railway, Render, Heroku
-- **Database**: MongoDB Atlas (бесплатный tier)
+- **Frontend**: https://ваш-проект.vercel.app (обновите после деплоя)
+- **Backend API**: https://arctic-web-task.onrender.com
 
-### Подготовка к деплою:
-
-1. Создайте кластер на MongoDB Atlas и добавьте IP в whitelist
-2. Используйте connection string из Atlas в MONGODB_URI
-3. Настройте переменные окружения на платформе деплоя
-4. Для Vercel: укажите NEXT_PUBLIC_API_URL на URL вашего backend
-
-## 📄 Лицензия
-
-MIT
+⚠️ **Примечание**: Backend на Render может "засыпать" после 15 минут неактивности. Первый запрос после сна займет 30-60 секунд.
 
