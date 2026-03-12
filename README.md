@@ -290,7 +290,7 @@ NEXT_PUBLIC_API_URL=http://localhost:3001
 
 ## 🌐 Live Demo
 
-- **Frontend**: https://ваш-проект.vercel.app (обновите после деплоя)
+- **Frontend**: https://arctic-web-task.vercel.app/ (обновите после деплоя)
 - **Backend API**: https://arctic-web-task.onrender.com
 
 ⚠️ **Примечание**: Backend на Render может "засыпать" после 15 минут неактивности. Первый запрос после сна займет 30-60 секунд.
