@@ -30,7 +30,7 @@
 ### 1. Клонировать репозиторий
 
 ```bash
-git clone <https://github.com/nuhzdenegnetu/Arctic-web-task.git>
+git clone https://github.com/nuhzdenegnetu/Arctic-web-task.git
 cd Arctic-web
 ```
 
